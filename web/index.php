@@ -11,32 +11,86 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Clearkey Hex to Base64 Converter">
-<meta property="og:description" content="Transform your Clearkey in HEX format to Base64 with JSON output by PHP. Powered by Sam Sam.">
-<title>Clearkey Hex to Base64 Converter</title>
+<meta property="og:title" content="Mixer">
+<title>Qutaiba Mixing Tool</title>
 </head>
 <body>
-<div class="px-4 py-5 my-5 text-center"> <h1 class="display-5 fw-bold">Clearkey Hex to Base64 Converter</h1>  </br>
-<h2 class="lead mb-4">Transform your Clearkey in HEX format to Base64 with JSON output by PHP.</br>Powered by <a href="https://github.com/samleong123">Sam Sam</a>.</br>Source code: <a href="https://github.com/samleong123/heroku-clearkey-hex-base64-json">here</a>./h2>
-   <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+   <hr class="my-4">
   
-			
-				  </div>
+    <center class="w-100"> <B>📺Qutaiba Merging Tool📺</B></center>
+ 
+   <hr class="my-4">
+</div>
 	  </br>
-   <form class="p-4 p-md-5 border rounded-3 bg-light"id="signup-form" method="get" action="results.php">
+   <form class="justify-content:center p-4 p-md-5 border rounded-3 bg-light"id="signup-form" method="get" action="results.php">
          
-           <div class="form-floating mb-3">
-            <input type="keyid" class="form-control" name="keyid" id="keyid" placeholder="Key ID in Hex">
-            <label for="floatingPassword">Key ID in Hex</label>
+          <div class="form-floating mb-3">
+            <input type="keyid" class="form-control" name="keyid_1" id="keyid_1" placeholder="URL 1">
+            <label for="floatingPassword">URL 1</label>
           </div>
-		     <div class="form-floating mb-3">
-            <input type="key" class="form-control" name="key" id="key" placeholder="Key in Hex">
-            <label for="floatingPassword">Key in Hex</label>
+          
+          
+		  <div class="form-floating mb-3">
+            <input type="key" class="form-control" name="keyid_2" id="keyid_2" placeholder="URL 2">
+            <label for="floatingPassword">URL 2</label>
           </div>
 	
-          <button type="submit" class="w-100 btn btn-lg btn-primary"  id="btn-submit">Generate now</button>
-          <hr class="my-4">
-          <small class="text-muted"><strong>By clicking Generate now, you might be violating your streaming platform's terms of services. We shall not be liable for any problem that will produce losses or inconveniences incurred as a result of such changes or differences.</strong></small>
+     	 <div class="form-floating mb-3">
+            <input type="key" class="form-control" name="keyid_3" id="keyid_3" placeholder="URL 3">
+            <label for="floatingPassword">URL 3</label>
+          </div>
+          
+            <div class="form-floating mb-3">
+            <input type="key" class="form-control" name="keyid_5" id="keyid_5" placeholder="URL 4">
+            <label for="floatingPassword">URL 4</label>
+          </div>
+          
+            <div class="form-floating mb-3">
+            <input type="key" class="form-control" name="keyid_6" id="keyid_6" placeholder="URL 5">
+            <label for="floatingPassword">URL 5</label>
+          </div>
+          
+            <div class="form-floating mb-3">
+            <input type="key" class="form-control" name="keyid_7" id="keyid_7" placeholder="URL 6">
+            <label for="floatingPassword">URL 6</label>
+          </div>
+          
+          
+                 
+            <div class="form-floating mb-3">
+            <input type="key" class="form-control" name="keyid_8" id="keyid_8" placeholder="URL 7">
+            <label for="floatingPassword">URL 7</label>
+          </div>
+          
+          
+          
+                 
+            <div class="form-floating mb-3">
+            <input type="key" class="form-control" name="keyid_9" id="keyid_9" placeholder="URL 8">
+            <label for="floatingPassword">URL 8</label>
+          </div>
+          
+          
+                 
+            <div class="form-floating mb-3">
+            <input type="key" class="form-control" name="keyid_10" id="keyid_10" placeholder="URL 9">
+            <label for="floatingPassword">URL 9</label>
+          </div>
+          
+          
+                 
+            <div class="form-floating mb-3">
+            <input type="key" class="form-control" name="keyid_1" id="keyid_1" placeholder="URL 10">
+            <label for="floatingPassword">URL 10</label>
+          </div>
+           <hr class="my-5">
+           <button type="submit" class="w-100 btn btn-primary align-items:center"  id="btn-submit">Merge</button>
+          <hr class="my-1">
+          <button type="submit" class="w-100 btn btn-primary"  id="btn-submit-live">Merge (No Live ❌📺)</button>
+          <hr class="my-1">
+           <button type="submit" class="w-100 btn btn-primary" id="btn-submit-vod">Merge  (No VOD ❌🎥)</button>
+          <hr class="my-5">
+          
         </form>
 	</body>
 	</html>
